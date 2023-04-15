@@ -1,0 +1,174 @@
+body {
+  background-color: #5865F260;
+}
+
+#title {
+  background-color: #a5f1e9;
+  margin: 0px -1px;
+  
+
+  /* navbar */
+}
+
+.navbar-item {
+  margin: 3px 30px;
+}
+
+.navbar-brand {
+  color: #000;
+  font-family: "Monteserrat";
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.nav-img {
+  margin: 20px;
+}
+
+.navbar-link {
+  color: grey;
+  text-decoration: none;
+}
+
+.navbtn {
+  margin-top: -5px;
+  margin-right: 2px;
+}
+
+.login {
+  text-decoration: none;
+  color: grey;
+}
+
+/* main */
+.row {
+  margin-top: 100px;
+}
+
+.mainh1 {
+  color: #dc2323;
+  font-family: "Monteserrat-bold";
+  font-weight: 800;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.mainimg {
+  margin-left: 100px;
+  border-radius: 30px;
+  margin-bottom: 100px;
+  height: auto;
+  max-width: 80%;
+} 
+.mainbtn {
+  margin: 8% 6% 4% 20%;
+}
+
+.btn2 {
+  margin-left: 30px;
+}
+
+#features h1 {
+  text-align: center;
+  font-family: "monteserrat-black";
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+#features {
+  background-color: #f2e5e5;
+  height: 300px;
+}
+
+/* testimonials */
+#testimonials {
+  /* background-color: #e6ddc4; */
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 14%;
+}
+
+/* footer  */
+
+
+.navbar-link:hover {
+  color: #000;
+}
+
+#footer {
+  padding: 5% 15%;
+  background-color: #ebe9e9;
+}
+
+.icon1 {
+  margin: 5px;
+}
+
+.copy {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: -89px;
+}
+
+.mailbtn2 {
+
+  text-decoration: none;
+  color: grey;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+#myths {
+  width: 80%;
+  margin: auto;
+}
+
+#myths h2 {
+  width: 50%;
+  margin: 2rem auto;
+  text-align: center;
+  background-color: #444;
+  padding: 1rem;
+  color: #ccc;
+  border-radius: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+#myths h2:hover {
+  transform: translateY(-4px);
+  box-shadow: #a5f1e9 1px 1px 12px;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.test{
+  padding-top: -10px;
+  text-transform: capitalize;
+   font-family: cursive;
+}
